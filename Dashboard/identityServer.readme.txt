@@ -1,0 +1,4 @@
+
+Migration:
+PM>  add-migration -n IdentityUsers -StartupProject IdSrv4Host
+PM> update-database -StartupProject IdSrv4Host

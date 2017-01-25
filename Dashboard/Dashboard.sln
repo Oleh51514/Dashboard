@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A662B0AF-684C-4267-B089-3C261ACC90CA}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08A90BAD-2736-44D5-AE6A-9842BCFE333E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IdSrv4Host", "src\IdSrv4Host\IdSrv4Host.xproj", "{59AA50B9-89F4-4895-BADD-C40E9FDFFDC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{2F8974FF-27F1-4449-AA71-FBE8D5D874F7}"
+	ProjectSection(SolutionItems) = preProject
+		identityServer.readme.txt = identityServer.readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{3F703150-2E09-461A-8265-618D4B1B616B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IdSrv4Host.Web", "src\IdSrv4Host.Web\IdSrv4Host.Web.xproj", "{2C24AC2C-9D18-46B6-9992-6E01A277E22C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IdSrv4.Dal", "src\IdSrv4.Dal\IdSrv4.Dal.xproj", "{1B43134A-A645-4D69-BF76-3903BB13151E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dashboard.Web", "src\Dashboard.Web\Dashboard.Web.xproj", "{EB63E6DE-8C00-4B9E-97DF-766694F2A8BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59AA50B9-89F4-4895-BADD-C40E9FDFFDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AA50B9-89F4-4895-BADD-C40E9FDFFDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AA50B9-89F4-4895-BADD-C40E9FDFFDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AA50B9-89F4-4895-BADD-C40E9FDFFDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C24AC2C-9D18-46B6-9992-6E01A277E22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C24AC2C-9D18-46B6-9992-6E01A277E22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C24AC2C-9D18-46B6-9992-6E01A277E22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C24AC2C-9D18-46B6-9992-6E01A277E22C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B43134A-A645-4D69-BF76-3903BB13151E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B43134A-A645-4D69-BF76-3903BB13151E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B43134A-A645-4D69-BF76-3903BB13151E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B43134A-A645-4D69-BF76-3903BB13151E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB63E6DE-8C00-4B9E-97DF-766694F2A8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB63E6DE-8C00-4B9E-97DF-766694F2A8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB63E6DE-8C00-4B9E-97DF-766694F2A8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB63E6DE-8C00-4B9E-97DF-766694F2A8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59AA50B9-89F4-4895-BADD-C40E9FDFFDC0} = {2F8974FF-27F1-4449-AA71-FBE8D5D874F7}
+		{2F8974FF-27F1-4449-AA71-FBE8D5D874F7} = {A662B0AF-684C-4267-B089-3C261ACC90CA}
+		{3F703150-2E09-461A-8265-618D4B1B616B} = {A662B0AF-684C-4267-B089-3C261ACC90CA}
+		{2C24AC2C-9D18-46B6-9992-6E01A277E22C} = {2F8974FF-27F1-4449-AA71-FBE8D5D874F7}
+		{1B43134A-A645-4D69-BF76-3903BB13151E} = {2F8974FF-27F1-4449-AA71-FBE8D5D874F7}
+		{EB63E6DE-8C00-4B9E-97DF-766694F2A8BE} = {3F703150-2E09-461A-8265-618D4B1B616B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://florynskyi-projects.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\IdSrv4.Dal\\IdSrv4.Dal.xproj
+		SccProjectTopLevelParentUniqueName1 = Dashboard.sln
+		SccProjectName1 = src/IdSrv4.Dal
+		SccLocalPath1 = src\\IdSrv4.Dal
+		SccProjectUniqueName2 = src\\IdSrv4Host.Web\\IdSrv4Host.Web.xproj
+		SccProjectTopLevelParentUniqueName2 = Dashboard.sln
+		SccProjectName2 = src/IdSrv4Host.Web
+		SccLocalPath2 = src\\IdSrv4Host.Web
+		SccProjectUniqueName3 = src\\IdSrv4Host\\IdSrv4Host.xproj
+		SccProjectTopLevelParentUniqueName3 = Dashboard.sln
+		SccProjectName3 = src/IdSrv4Host
+		SccLocalPath3 = src\\IdSrv4Host
+		SccProjectUniqueName4 = src\\Dashboard.Web\\Dashboard.Web.xproj
+		SccProjectTopLevelParentUniqueName4 = Dashboard.sln
+		SccProjectName4 = src/Dashboard.Web
+		SccLocalPath4 = src\\Dashboard.Web
+	EndGlobalSection
+EndGlobal
